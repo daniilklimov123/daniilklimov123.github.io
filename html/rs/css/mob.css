@@ -1,0 +1,146 @@
+#header-img, #m-1-jpg, #m-ruslan-desc, .m-view, .footer-table > div.m-view {
+    display: none;
+}
+.slider .slider-wrap img.m-view {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    
+    html {
+        background: #fff;
+        font-size: 8px;
+    }    
+    a {
+        font-size: 1.4em;
+    }    
+    .d-view {
+        display: none !important;
+    }
+    .m-view  {
+        display: block;
+    }    
+    section.headerBg header {
+        height: auto;
+        max-width: 100%;
+    }
+    header .box {
+        display: block;
+        margin: 3em auto;
+    }
+    .d-view, header .arrow-down {
+        width: 7rem;
+        height: 7rem;
+        margin-left: -3.5rem;
+        bottom: -3.5rem;
+    }
+    .d-view, header .arrow-down > img {
+        max-width: 100%;
+    }
+    section.headerBg {
+        background: #0c1014;
+        background-size: cover;
+        height: auto;
+        max-width: 100%;
+    }
+    header {
+      padding: 1px 0;
+    }
+    .row-title {
+        display: block;
+        width: auto;
+        margin: 0;
+    }
+    .row-title > div {
+        display: block;
+        float: none;
+    }
+    .row-title > div:first-child {
+        background: url(images/mob/header-1.jpg) left 100% no-repeat #0c1014;
+        background-size: contain;
+        padding: 1px 30px;
+        text-align: center;
+    }
+    .row-title > div:last-child {
+        background: url(images/mob/header-2.jpg) left top no-repeat #272e32;
+        background-size: cover;
+        padding: 0 0 102.6% 0;
+        text-align: center;
+        position: relative;
+    }
+    .row-title > div:last-child .box {
+        position: absolute;
+        left: 0%;
+        bottom: -5%;
+        width: 61%;
+        max-width: 100%;
+    }
+    .row-title h1 {
+        font-size: 9rem;
+        text-align: center;
+        margin: 4rem 0;
+    }
+    .row-title h1.big-sale {
+        text-align: center;
+        font-size: 9em;
+        color: #f81f2e;
+        margin: 4rem 0;
+    }
+    .row-title span.action-date {
+        margin: 0 auto;
+    }
+    
+    section.page img {
+    	max-width: 100%;
+    } 
+    section.page {
+        width: auto;
+        max-width: 100%;
+        padding: 2em 15px;
+    }
+    section.page p { 
+        font-size: 1.8em;
+        margin: 0 0 10px;        
+    }
+    section.page h1, h1 {
+      font-size: 3.5em;
+    }
+    section.page h1:first-child {
+        margin-top: 5rem;
+    }
+    section.page h3 {
+       font-size: 2.5em; 
+    }
+    section.page h1 br, section.page h2 br, section.page h3 br  {
+        display: none;
+    }
+    .nobr br {
+        display: none;
+    }
+    .good-row {
+        display: block;
+        width: auto;
+    }
+    .good-row > div {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+    .sale-label {
+        left: 2rem;
+    }
+    .page .good-row > div p {
+        text-align: left;
+    }
+    .page .good-row > div > h3:first-child, .page .good-row p.fsize20, .page .good-row > div h4.price {
+        text-align: center;
+    }
+    .page .good-row > div:last-child {
+        text-align: center;
+    }    
+    .page img.footer-logo {
+        display: block;
+        max-width: 50%;
+        margin: 0 auto 2em;
+    }
+}
